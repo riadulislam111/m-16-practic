@@ -1,0 +1,13 @@
+function generateReceipt (customerName, items, total) {
+    if(!Array.isArray(items) || items === []){
+        return "Invalid"
+    }
+
+  
+
+return `Receipt for ${customerName} Items: ${items} Total: ৳${total}`
+}
+
+// console.log(generateReceipt("Rakib", ["Pen","Book"], 150));
+// console.log(generateReceipt("Sadia", ["Milk"], 60));
+// console.log(generateReceipt("Tanvir", [], 0));
